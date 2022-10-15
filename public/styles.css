@@ -1,5 +1,5 @@
 body {
-  background-color: #ffeaa7;
+  background-color: #09ceff;
   min-height: 70vh;
   padding: 1rem;
   box-sizing: border-box;
@@ -36,7 +36,7 @@ body {
   transform: rotate(2deg);
   padding: 0.2rem 1.2rem;
   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
-  background-color: #fdcb6e;
+  background-color: #fbfd6e;
   font-size: 1.5rem;
 }
 
@@ -64,12 +64,22 @@ button {
   border-radius: 5px;
   background-color: #ffeaa7;
 }
+
 button span {
-  background: #f1f5f8;
+  background: #4491cc;
   display: block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 2px solid hsl(198, 1%, 29%);
+}
+
+button span:hover {
+  background: #19639c;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(2px);
 }
 
 li {
